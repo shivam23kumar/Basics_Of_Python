@@ -1,21 +1,22 @@
-class sohini():
+#Code to understand the concept of Inheritance
+class Pappa():
     def feature1(self):
-        print("cute")
+        print("Strict")
 
     def feature2(self):
-        print("sexy")
+        print("Loving")
 
-class shivam(sohini):
+class Beta(Pappa):
     def feature3(self):
-        print("hot")
+        print("Naughty")
 
     def feature4(self):
-        print("loyal")
+        print("Loyal")
 
 
 
-a1=sohini()
-b1=shivam()
+a1=Pappa()
+b1=Beta()
 
 b1.feature2()
 b1.feature4()
